@@ -1,0 +1,41 @@
+baseurl = "http://example.org/"
+title = "Spokelopez website"
+theme = "hugo-theme-nix"
+languageCode = "en-us"
+disqusShortname = "your_disqus_shortname"
+
+[menu]
+  [[menu.header]]
+    name = "guias"
+    weight = 1
+    url = "guias"
+  [[menu.header]]
+    name = "tutoriales"
+    weight = 2
+    url = "tutoriales"
+  [[menu.header]]
+    name = "posts"
+    weight = 3
+    url = "posts"
+  [[menu.header]]
+    name = "sistemas"
+    weight = 4
+    url = "sistemas"
+  [[menu.header]]
+    name = "CV"
+    weight = 0
+    url = "about"
+
+[params]
+  GithubID = "your_github"
+  TwitterID = "your_twitter"
+  LinkedInID = "your_linkedin"
+  YoutubeID = "your_youtube"
+  Name = "Spoke Lopez"
+  HeaderUsername = ""
+  HeaderHostname = "spokelopez"
+  Email = "your_email"
+  About = "Soy un desarrollador frontend también especializado en PHP, Node.js. Tengo más de 3 años de experiencia realizando desarrollos para la web y desarrollando para la plataforma Magento e-commerce."
+  ProfilePicture = "/me.jpeg"
+  Favicon = "/favicon.ico"
+
