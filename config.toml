@@ -10,17 +10,17 @@ disqusShortname = "your_disqus_shortname"
     weight = 1
     url = "guias"
   [[menu.header]]
-    name = "tutoriales"
-    weight = 2
-    url = "tutoriales"
-  [[menu.header]]
     name = "posts"
-    weight = 3
+    weight = 2
     url = "posts"
   [[menu.header]]
     name = "sistemas"
-    weight = 4
+    weight = 3
     url = "sistemas"
+  [[menu.header]]
+    name = "tutoriales"
+    weight = 4
+    url = "tutoriales"
   [[menu.header]]
     name = "CV"
     weight = 0
