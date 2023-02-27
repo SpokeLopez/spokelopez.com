@@ -14,16 +14,16 @@ disqusShortname = "your_disqus_shortname"
     weight = 2
     url = "posts"
   [[menu.header]]
-    name = "sistemas"
-    weight = 3
-    url = "sistemas"
-  [[menu.header]]
     name = "tutoriales"
-    weight = 4
+    weight = 3
     url = "tutoriales"
   [[menu.header]]
+    name = "proyectos"
+    weight = 4
+    url = "proyectos"
+  [[menu.header]]
     name = "CV"
-    weight = 0
+    weight = 5
     url = "about"
 
 [params]
@@ -38,4 +38,3 @@ disqusShortname = "your_disqus_shortname"
   About = "Soy un desarrollador frontend también especializado en PHP, Node.js. Tengo más de 3 años de experiencia realizando desarrollos para la web y desarrollando para la plataforma Magento e-commerce."
   ProfilePicture = "/me.jpeg"
   Favicon = "/favicon.ico"
-

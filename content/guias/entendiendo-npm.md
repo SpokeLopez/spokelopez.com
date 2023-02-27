@@ -1,6 +1,6 @@
 +++
 title = "Entendiendo NPM de Node.js"
-description = "Instalación de npm e incializando un proyectp con npm"
+description = "Instalación de npm e incializando un proyecto con npm"
 tags = [
     "javascript",
     "npm",
@@ -14,7 +14,7 @@ menu = "main"
 +++
 ## NPM (Node Package Manager)
 
-En al día a día como frontend, es normal encontrarte con proyectos que funcionen con la ayuda de dependencias en **NPM**, es esto lo que me ah llevado a tener una lista de comandos que les quiero compartir en este post.
+En al día a día como frontend, es normal encontrarte con proyectos que funcionen con la ayuda de dependencias en **NPM**, es esto lo que me ah llevado a tener una lista de comandos que les quiero compartir en un futuro post, pero antes me gustaría dejarte una introducción de lo que es **NPM** este post.
 
 **NPM** es un gestor de paquetes creado en lenguaje **javascript** y es de las partes mas importantes de **Node.js**, gracias a el se obtiene cualquier libreria a traves de código.
 
@@ -22,10 +22,10 @@ En al día a día como frontend, es normal encontrarte con proyectos que funcion
 
 Las ventajas que eh encontrado al utilizar **NPM** en un proyecto son:
 
-    1. Adaptar los paquetes según la necesidad el proyecto.
-    2. La descarga de las herramientas es inmediata.
-    3. Poder ejecutar distintas versiones del mismo paquete en el mismo proyecto.
-    4. Restringir actualizaciones de las versiones del paquete o incluso restringirlos para producción o desarrollo.
+    1. Adaptar los paquetes según la necesidad el proyecto
+    2. La descarga de las herramientas es inmediata
+    3. Poder ejecutar distintas versiones del mismo paquete en el mismo proyecto
+    4. Restringir actualizaciones de las versiones del paquete o incluso restringirlos para producción o desarrollo
 
 ## ¿Como instalar npm en tu equipo?
 
@@ -127,12 +127,12 @@ Este fichero tendrá toda la información de las dependencias de tu proyecto, es
 }
 ```
 
-- *name* : Nombre del proyecto, librería o paquete. Es recomendable que coincida con el repositorio.
-- *version* : Versión del proyecto o del paquete.
-- *description* : Descripción breve del proyecto o paquete.
-- *main* : Punto de entrada del proyecto. Suele ser `index.js` (en node) o `index.html` (en browser).
-- *scripts* : scripts del proyecto, para distintos fines.
-- *author* : Nombre del autor del proyecto o paquete.
-- *license* : Tipo de licencia del proyecto o paquete, por defecto es **ISC**.
+- *name* : Nombre del proyecto, librería o paquete. Es recomendable que coincida con el repositorio
+- *version* : Versión del proyecto o del paquete
+- *description* : Descripción breve del proyecto o paquete
+- *main* : Punto de entrada del proyecto. Suele ser `index.js` (en node) o `index.html` (en browser)
+- *scripts* : scripts del proyecto, para distintos fines
+- *author* : Nombre del autor del proyecto o paquete
+- *license* : Tipo de licencia del proyecto o paquete, por defecto es **ISC**
 
 El siguiente post incluirá la lista de comandos que me han ayudado en el día a día y un pequeño ejemplo de un proyecto utilizando dependencias.
